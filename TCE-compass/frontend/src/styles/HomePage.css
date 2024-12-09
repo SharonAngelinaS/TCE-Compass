@@ -37,3 +37,60 @@
   font-weight: bold;
 }
 
+.home-container {
+  background-color: #f6e8e1;
+  height: 100vh; /* Make it fit the viewport height */
+  display: flex;
+  flex-direction: column; /* Change to column to stack the button and the cards */
+  align-items: center; /* Center the content horizontally */
+  padding-top: 20px; /* Add some padding at the top */
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.department-card {
+  background-color: #fdf6f3;
+  border: 1px solid #c47e6b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.department-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.department-card h3 {
+  font-size: 1.2rem;
+  color: #a35d49;
+  font-weight: bold;
+}
+
+.description-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #a35d49; /* Brown color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.description-button:hover {
+  background-color: #874a3a; /* Darker brown on hover */
+  transform: scale(1.1);
+}
