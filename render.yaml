@@ -3,9 +3,9 @@ services:
     name: tce-compass-backend
     env: node
     plan: free
-    rootDir: backend
-    buildCommand: npm install
-    startCommand: npm start
+    rootDir: "./TCE-compass/backend"
+    buildCommand: "npm install"
+    startCommand: "npm start"
     envVars:
       - key: NODE_ENV
         value: production
