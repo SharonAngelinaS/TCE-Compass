@@ -3,7 +3,7 @@ services:
     name: tce-compass-backend
     env: node
     plan: free
-    rootDir: TCE-compass/backend
+    rootDir: backend
     buildCommand: npm install
     startCommand: npm start
     envVars:
