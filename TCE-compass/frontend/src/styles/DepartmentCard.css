@@ -1,0 +1,42 @@
+.department-card {
+  background-color: #fdf6f3; /* Light background color */
+  border: 1px solid #c47e6b; /* Border color */
+  padding: 20px; /* Spacing inside the card */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center the content */
+  width: 200px; /* Set card width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 10px; /* Space between cards */
+  cursor: pointer; /* Pointer on hover */
+  transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth animations */
+}
+
+.department-card h3 {
+  font-size: 1.2rem; /* Font size for headings */
+  color: #a35d49; /* Text color */
+  font-weight: bold; /* Bold text */
+}
+
+.department-card:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  background-color: #f6e8e1; /* Subtle color change on hover */
+}
+
+.header {
+  font-style: italic; /* Italics style */
+  font-size: 1.5rem;
+  color: #a35d49;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+  display: block; /* Ensure clickable area is block */
+}
+
+.header-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
