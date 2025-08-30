@@ -43,17 +43,18 @@ const Chatbot = () => {
   return (
     <>
       <button className="chatbot-button" onClick={toggleChatbot}>
-        Chat
+        Intelligent Assistance
       </button>
 
       {isOpen && (
         <div className="chatbot-container">
           <div className="chatbot-header">
-            <span>Locas</span>
-            <button className="close-btn" onClick={toggleChatbot}>
-              X
-            </button>
-          </div>
+  <span>Locas</span>
+  <div className="powered-by-gemini">Powered by GEMINI</div>
+  <button className="close-btn" onClick={toggleChatbot}>
+    X
+  </button>
+</div>
           <div className="chatbot-body">
             <div className="chat-history">
               {chatHistory.map((msg, index) => (
