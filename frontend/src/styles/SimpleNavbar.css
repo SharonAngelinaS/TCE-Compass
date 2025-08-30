@@ -1,0 +1,25 @@
+.simple-navbar {
+  background-color: #f6e8e1; /* Match with your theme */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  position: sticky; /* Fix to the top */
+  top: 0;
+  z-index: 1000;
+  justify-content: flex-start;
+}
+
+.brand-title {
+  font-size: 1.8rem; /* Larger font size */
+  font-style: italic; /* Italicized text */
+  font-weight: bold;
+  color: #a35d49; /* Warm brown color */
+  text-decoration: none; /* No underline */
+  align-self: flex-start;
+}
+
+.brand-title:hover {
+  text-decoration: underline; /* Underline on hover */
+}

@@ -1,0 +1,6 @@
+# Set default behavior for all files
+* text=auto
+
+# Specific overrides (if necessary)
+*.sh text eol=lf
+*.bat text eol=crlf
